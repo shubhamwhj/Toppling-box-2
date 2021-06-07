@@ -5,7 +5,7 @@ class Box
         var option={
             'restitution' : 0.8
         }
-        this.body=Bodies.rectangle(x,y,width,height);
+        this.body=Bodies.rectangle(x,y,width,height,option);
         World.add(world,this.body);
         
         this.width=width;
